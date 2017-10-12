@@ -28,9 +28,9 @@ Design and Developed by: Iqonicthemes
 
         $(window).scroll(function() {
             if ($(this).scrollTop() > 100) {
-                $('.menu-top').addClass('menu-shrink');
+                $('.iq-menu-top').addClass('menu-shrink');
             } else {
-                $('.menu-top').removeClass('menu-shrink');
+                $('.iq-menu-top').removeClass('menu-shrink');
             }
         });
 
@@ -53,10 +53,6 @@ Design and Developed by: Iqonicthemes
     });
 
     /* End Stellar for background scrolling  */
-
-    /*START WOW ANIMATION JS*/
-    new WOW().init();
-    /*END WOW ANIMATION JS*/
 
 })(jQuery);
 
